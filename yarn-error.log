@@ -1,0 +1,50 @@
+Arguments: 
+  /home/mwalila-nyira/.nvm/versions/node/v14.18.3/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /home/mwalila-nyira/anaconda3/condabin:/home/mwalila-nyira/.nvm/versions/node/v14.18.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.18.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 104.16.18.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+
+npm manifest: 
+  {
+    "name": "rn-course-goal",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~45.0.0",
+      "expo-status-bar": "~1.3.0",
+      "react": "17.0.2",
+      "react-dom": "17.0.2",
+      "react-native": "0.68.2",
+      "react-native-web": "0.17.7"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
